@@ -10,7 +10,7 @@
 * The program used 'unirest' package to make HTTP Connect more convinient.
 
 # 3.Preparations of Dictionary
-* Downlaod some thesaurus and do ETL with simple java program
+* Downlaod some thesaurus and do ETL with a java program
 
 # 4.Guessing Strategy（Algorithm）
 1. Sort the words in dictionary.txt by length and put it into different arrays(2-dimensional array)
@@ -20,4 +20,6 @@
   - If the letter is wrong, then delete all the words which contains this letter from array
   - If the letter is true, then delete all the words which cannot match the response(which convert to regular expression). And delete all the words which contains this letter in any other unknown position( For example, if the response is \*\*\*P\*, the word HAPPY should be filtered.)
 
-# 5.About Others
+# 5.About Others Ideas
+1. Run many times and correct the weight of words according to the appreared time
+2. When it remain many possible words, and the number of occurrences is scattered, skip this word according to the remaining guessable times?
