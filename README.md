@@ -1,13 +1,15 @@
 # 1.How to Play
-* Start to play the game, the program will play the game automatically.
+* Run Hangman.rb to start the game, the program will play the game automatically.
+* Keep all the rb file and dictionary.txt in the same path
 * After every words has been guessed or all 80 words has been finished, the system will ask you if you want to sumbit your score.
 * Submit your score if you want.
 * After submit, you can also continue playing the game.
 * After all 80 words has been finished, the program will be finished.
+* You can add any words in dictionary.txt if you want
 
 # 2.Basic Info.
-* The program used ruby as language.
-* The program used 'unirest' package to make HTTP Connect more convinient.
+* Used ruby as language.
+* Used 'unirest' package to make HTTP Connect more convinient.
 
 # 3.Preparations of Dictionary
 * Downlaod some thesaurus and do ETL with a java program
